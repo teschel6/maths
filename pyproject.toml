@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "maths"
+description = "Expirements with maths"
+version = "0.1.0"
+readme = "README.md"
+dependencies = [
+    "matplotlib==3.10.0",
+    "PyQt6==6.8.0"
+]
